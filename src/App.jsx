@@ -1,10 +1,14 @@
 import React from 'react'
-import CongviecC from './store/componet/CongviecC'
+import Shopping from './compenents/Shopping'
+import Cart from './compenents/Cart'
+
+
 
 export default function App() {
   return (
-  <>
-  <CongviecC></CongviecC>
-  </>
+    <>
+    <Shopping></Shopping>
+    <Cart></Cart>
+    </>
   )
 }
